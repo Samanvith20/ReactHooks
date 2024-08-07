@@ -5,6 +5,9 @@ import Usereducer from './hooks/Usereducer/Usereducer';
 import Useeffect from './hooks/Useeffect/UseEffect';
 import Useref from './hooks/Useref/Useref';
 import Uselayouteffect from './hooks/UseLayoutEffect/Uselayouteffect';
+import Usecontext from './hooks/usecontext/Usecontext';
+import Usememo from './hooks/Usememo/Usememo';
+
 
 function App() {
   return (
@@ -14,6 +17,8 @@ function App() {
       <Useeffect/>
       <Useref/>
       <Uselayouteffect/>
+      <Usecontext/>
+      <Usememo/>
     </div>
   );
 }
