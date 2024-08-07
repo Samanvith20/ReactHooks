@@ -9,6 +9,7 @@ const Usestate = () => {
     }
   return (
     <div className="usestate-container">
+        <h1>UseState</h1>
       <input type="text" placeholder="Enter something" onChange={Updatevalue} />
       <div className="input-value">{Inputvalue}</div>
     </div>
